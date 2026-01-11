@@ -1,16 +1,16 @@
 class Wtbuddy < Formula
   desc "CLI tool for managing Git worktrees for parallel development"
   homepage "https://github.com/wiebe-xyz/pr-buddy"
-  version "0.0.62"
+  version "0.0.63"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://webwiebe.nl/brew/wtbuddy-darwin-amd64-0.0.62.tar.gz"
-      sha256 "4b8217624db3571f7a27b543b872c431f55653697754eae54a777790b4b1308e"
+      url "https://webwiebe.nl/brew/wtbuddy-darwin-amd64-0.0.63.tar.gz"
+      sha256 "7bdcca42adbae5f099bd75733e9e8c440c35373ca9fc83bf8cd85490ec271e74"
     elsif Hardware::CPU.arm?
-      url "https://webwiebe.nl/brew/wtbuddy-darwin-arm64-0.0.62.tar.gz"
-      sha256 "40ab0d19af9a5316206339fa70f9ef308a8a4e92e6e8e6585cd3e9837f09f2dd"
+      url "https://webwiebe.nl/brew/wtbuddy-darwin-arm64-0.0.63.tar.gz"
+      sha256 "1a1e2aa0018e2c647ca939e6c4c61efd1ce6533df57a5ccf3827c85a81515bd7"
     end
   end
 
