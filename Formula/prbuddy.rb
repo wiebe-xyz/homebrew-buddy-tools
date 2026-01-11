@@ -1,16 +1,16 @@
 class Prbuddy < Formula
   desc "CLI tool for managing GitHub Pull Requests with an interactive terminal UI"
   homepage "https://github.com/wiebe-xyz/pr-buddy"
-  version "0.0.65"
+  version "0.0.66"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://webwiebe.nl/brew/prbuddy-darwin-amd64-0.0.65.tar.gz"
-      sha256 "73077fa5d04b372805fc1d76847b07d51ee5d75cbc6badfd7a616fdbf94988cf"
+      url "https://webwiebe.nl/brew/prbuddy-darwin-amd64-0.0.66.tar.gz"
+      sha256 "bbb2de053bb72667c574e05c52dc935ecdce013a2563ecae0c38cb86f4c2ecec"
     elsif Hardware::CPU.arm?
-      url "https://webwiebe.nl/brew/prbuddy-darwin-arm64-0.0.65.tar.gz"
-      sha256 "9ea0ce8365faaea5b140d631aff77fadb59e8d4813be38df09de080a88c8bd20"
+      url "https://webwiebe.nl/brew/prbuddy-darwin-arm64-0.0.66.tar.gz"
+      sha256 "3f9088aba4b0075490c2225ec4903e312e836e89d7d49cb00bc842ec03f3d855"
     end
   end
 
