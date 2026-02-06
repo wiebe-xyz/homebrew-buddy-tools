@@ -1,16 +1,16 @@
 class Jirabuddy < Formula
   desc "CLI tool for managing Jira issues and sprints with an interactive terminal UI"
   homepage "https://github.com/wiebe-xyz/pr-buddy"
-  version "0.0.123"
+  version "0.0.124"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://webwiebe.nl/brew/jirabuddy-darwin-amd64-0.0.123.tar.gz"
-      sha256 "cef458f74cbe78561b529861f18408837fcba845022bf63e3d204e6475bbf8cd"
+      url "https://webwiebe.nl/brew/jirabuddy-darwin-amd64-0.0.124.tar.gz"
+      sha256 "a5872b0690510350dbbd2ab2d3aca8e074b6b2b80b33d01e9f292ca2ac646191"
     elsif Hardware::CPU.arm?
-      url "https://webwiebe.nl/brew/jirabuddy-darwin-arm64-0.0.123.tar.gz"
-      sha256 "a3b17c9dad9fc8f172ebd27a34d6411e7a84340aca5c4d1047b4fa76ae65fdc5"
+      url "https://webwiebe.nl/brew/jirabuddy-darwin-arm64-0.0.124.tar.gz"
+      sha256 "6f5b6aaa58ebcbaf4f390cfd4e743444c90bb23a4dd80b9f3c0670d000a3d233"
     end
   end
 
