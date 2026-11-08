@@ -1,16 +1,16 @@
 class Issuebuddy < Formula
   desc "CLI tool for managing GitHub Issues with an interactive terminal UI"
   homepage "https://github.com/wiebe-xyz/pr-buddy"
-  version "0.0.221"
+  version "0.0.222"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://webwiebe.nl/brew/issuebuddy-darwin-amd64-0.0.221.tar.gz"
-      sha256 "ee4849be35fe3b3dc580d137b29314c250e1e7af2f210db4d6bfed8e7afc424a"
+      url "https://webwiebe.nl/brew/issuebuddy-darwin-amd64-0.0.222.tar.gz"
+      sha256 "22bed9888ba253974f31dcd7d0f954c9fe86bf6edaa1d3322225de8209e4ea42"
     elsif Hardware::CPU.arm?
-      url "https://webwiebe.nl/brew/issuebuddy-darwin-arm64-0.0.221.tar.gz"
-      sha256 "cfbf832f1b002a7c7db2527959e8ccdfa1390e3d343d0fdf7d9b5757cd18663d"
+      url "https://webwiebe.nl/brew/issuebuddy-darwin-arm64-0.0.222.tar.gz"
+      sha256 "781d4dc40dff953527b629426ce47d916fd61c62c958c1eae689f7677876967c"
     end
   end
 
